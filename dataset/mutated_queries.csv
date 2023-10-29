@@ -1,0 +1,451 @@
+id,query,ground_truth
+0,Run shell script.,"[['read', 'execute']]"
+0,There is a shell script file.sh.,"[['read', 'execute']]"
+0,You can run shell script file.sh.,"[['read', 'execute']]"
+0,Go to shell script file.sh.,"[['read', 'execute']]"
+0,Shell script file.sh can be run.,"[['read', 'execute']]"
+1,Please use bz2 to compress the file.,[['read']]
+1,Please use the bz2 compressed file to compress the file.,[['read']]
+1,Please use bz2 compressed file to compress the file.,[['read']]
+1,Please make a compressed file.,[['read']]
+1,Please use the bz2 compressed file.,[['read']]
+2,The bz2 file is uncompress.,[['read']]
+2,Uncompress bz2 file.,[['read']]
+2,The bz2 file is uncompressed.,[['read']]
+2,The bz2 file is Uncompress.,[['read']]
+2,The bz2 file has been uncompress.,[['read']]
+3,Write the input from the terminal down.,[['write']]
+3,Write down the input from the terminal.,[['write']]
+3,Write the input from the terminal to file.,[['write']]
+3,Write the input from the terminal down to file.,[['write']]
+3,Write input from the terminal into a file.,[['write']]
+4,I need to know the contents of file1 and file2 together.,"[['read'], ['read']]"
+4,I would like to see the contents of file1 and file2 together.,"[['read'], ['read']]"
+4,I would like to see the content of file1 and file2 together.,"[['read'], ['read']]"
+4,I need to know the content of file1 and file2 together.,"[['read'], ['read']]"
+4,I need to see the content of file1 and file2 together.,"[['read'], ['read']]"
+5,All contents should be added to the end of file1.,"[['read'], ['write']]"
+5,All contents should be added to the end of file 1.,"[['read'], ['write']]"
+5,All contents should be put at the end of file 2.,"[['read'], ['write']]"
+5,All contents should be put at the end of file2.,"[['read'], ['write']]"
+5,All contents should be added to the end of file 2.,"[['read'], ['write']]"
+6,Show me the file on the screen.,[['read']]
+6,Show me the file's contents on the screen.,[['read']]
+6,I want to know the content of the file on the screen.,[['read']]
+6,I would like to see the content of the file on the screen.,[['read']]
+6,Show me the contents of the file.,[['read']]
+7,The current working directory should be changed to dir.,[['execute']]
+7,The current working directory should be changed to dir/.,[['execute']]
+7,The current directory should be changed to dir.,[['execute']]
+7,The current directory should be changed to dir/.,[['execute']]
+7,The working directory should be changed to dir.,[['execute']]
+8,Generate a value for the file.,[['read']]
+8,There is a value for a file.,[['read']]
+8,A value for a file.,[['read']]
+8,A checksum is a value for a file.,[['read']]
+8,A value for a file is generated.,[['read']]
+9,"If there are differences between the two files, tell the first byte and line number.","[['read'], ['read']]"
+9,"If there is a difference between the two files, tell the first byte and line number.","[['read'], ['read']]"
+9,"If there are differences between the two files, compare them and tell the first line and byte number.","[['read'], ['read']]"
+9,"If there are differences between the two files, tell the first line and byte number.","[['read'], ['read']]"
+9,"If there are differences between the two files, compare them and tell the first line number.","[['read'], ['read']]"
+10,The 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846,[['read']]
+10,The 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846,[['read']]
+10,The 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846,[['read']]
+10,The 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846,[['read']]
+10,The 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846 888-666-1846,[['read']]
+11,"Write to standard output if you compare two sorted files line by line, the lines that are common and the lines that are unique.","[['read'], ['read']]"
+11,"Compare two sorted files line by line and write to standard output, the lines that are common and the lines that are unique.","[['read'], ['read']]"
+11,"Compare two sorted files line by line and write to standard output, the lines that are common and the lines that are unique","[['read'], ['read']]"
+11,"Write to standard output if you compare two sorted files line by line, the lines that are common and the ones that are unique.","[['read'], ['read']]"
+11,"Compare two sorted files line by line and write to standard output, the lines that are common and the ones that are unique.","[['read'], ['read']]"
+12,All content should be copied to a new file.,"[['read'], ['write']]"
+12,All content in file1 should be copied to a new file named file2.,"[['read'], ['write']]"
+12,All content in file1 needs to be copied to a new file.,"[['read'], ['write']]"
+12,All content is copied to a new file.,"[['read'], ['write']]"
+12,All content can be copied to a new file.,"[['read'], ['write']]"
+13,"If file2 has a prompt for confirmation before overwritting it, copy file1 to file2.","[['read'], ['write']]"
+13,"If file2 has a prompt for confirmation, copy file1 to it.","[['read'], ['write']]"
+13,"If there is a prompt for confirmation before overwritting it, copy file1 to file2.","[['read'], ['write']]"
+13,"If file2 has a prompt for confirmation, copy it.","[['read'], ['write']]"
+13,"If file2 has a prompt for confirmation, you can copy it.","[['read'], ['write']]"
+14,"The mode, ownership and timestamp are preserved by copying file1 to file2.","[['read'], ['write']]"
+14,"Preserve the mode, ownership and timestamp by copying file1 to file2.","[['read'], ['write']]"
+14,"Save the mode, ownership and timestamp by copying file1 to file2.","[['read'], ['write']]"
+14,"The mode, ownership and timestamp are preserved.","[['read'], ['write']]"
+14,"The mode, ownership and timestamp are preserved by copying file 1 to file 2.","[['read'], ['write']]"
+15,"Print the first, second, fifth, and seventh characters from the file.",[['read']]
+15,"Each line of the file has a second, fifth, and seventh character.",[['read']]
+15,"Each line of the file should be printed with second, fifth and seventh characters.",[['read']]
+15,"From each line of the file, print the second, fifth, and seventh characters.",[['read']]
+15,"From each line of the file, write second, fifth, and seventh characters.",[['read']]
+16,There is a display of disk space usage.,none
+16,You can display disk space usage.,none
+16,Show the disk space usage.,none
+16,Disk space usage can be displayed.,none
+16,Show disk space usage.,none
+17,There are differences between two files.,[['read']]
+17,There are differences between the two files.,[['read']]
+17,You can find the differences between the two files.,[['read']]
+17,Find out the differences between the two files.,[['read']]
+17,There are differences between files.,[['read']]
+18,The space usage of the file should be estimated.,[['read']]
+18,Estimate the space usage of the file.,[['read']]
+18,Estimate the amount of space used in the file.,[['read']]
+18,Estimate the file space usage.,[['read']]
+18,The space usage of the file is estimated.,[['read']]
+19,I want to show the test on the screen.,none
+19,I would like to display the test on the screen.,none
+19,I would like to display a test on the screen.,none
+19,I would like to show the test on the screen.,none
+19,I want to show a test on the screen.,none
+20,An environment variable can be exported.,none
+20,The environment variable can be exported.,none
+20,The environment variable should be exported.,none
+20,You can export an environment variable.,none
+20,An environment variable is exported.,none
+21,Determine file type.,none
+21,Determine the file type.,none
+21,Determine the type of file.,none
+21,Determine file type,none
+21,Determine the file type,none
+22,There are empty files in the home directory.,[['read']]
+22,All empty files can be found in the home directory.,[['read']]
+22,All empty files are located in the home directory.,[['read']]
+22,The home directory has empty files.,[['read']]
+22,The home directory contains all empty files.,[['read']]
+23,There is a display of memory usage.,none
+23,It is possible to display memory usage.,none
+23,You can display memory usage.,none
+23,Show the amount of memory usage.,none
+23,There is a display on the memory usage.,none
+24,Compile a program.,[['read']]
+24,It's a good idea to build a C++ program program.,[['read']]
+24,It's a good idea to make a C++ program program.,[['read']]
+24,It's a good idea to build a C++ program.,[['read']]
+24,It's a good idea to make a program program.,[['read']]
+25,Compile the source file into a file.,[['read']]
+25,The source file.c should be compiled into an executable file.,[['read']]
+25,Compile the source file.c into an exe file.,[['read']]
+25,Compile the source file.c to an exe file.,[['read']]
+25,Compile the source file into a file that can be read.,[['read']]
+26,Compile a haskell program file.hs.,[['read']]
+26,"To make a haskell program file, you need toCompile a haskell program file.",[['read']]
+26,"To file a haskell program file, you need toCompile a haskell program file.",[['read']]
+26,Compile a haskell program file.,[['read']]
+26,"To file a haskell program file, you need a haskell program file.",[['read']]
+27,You can find an exact pattern in the file.,[['read']]
+27,There is an exact pattern in the file.,[['read']]
+27,Find an exact pattern in the file.,[['read']]
+27,You can search for an exact pattern in the file.,[['read']]
+27,You can search for an exact pattern.,[['read']]
+28,"The file has a string ""UNix"" case in it.",[['read']]
+28,"The file has a string called ""UNix"" in it.",[['read']]
+28,"The file has a string ""UNix"" in it.",[['read']]
+28,"The file has a string ""UNix"" case.",[['read']]
+28,"The string ""UNix"" should be searched in the file.",[['read']]
+29,The directories are searched in /dir.,"[['read', 'execute'], ['read']]"
+29,Search directories in the same way.,"[['read', 'execute'], ['read']]"
+29,Search directories in the same place.,"[['read', 'execute'], ['read']]"
+29,directories are searched in /dir,"[['read', 'execute'], ['read']]"
+29,You can search directories in /dir.,"[['read', 'execute'], ['read']]"
+30,Don't search for a part of a word in the file.,[['read']]
+30,It's better to search for a whole word than a part of a word.,[['read']]
+30,Don't search for a part of a word in a file.,[['read']]
+30,"Search for a whole word, not a part of a word.",[['read']]
+30,It is better to search for a whole word than a part of a word.,[['read']]
+31,A gz compressed file is needed.,[['read']]
+31,A gz compressed file can be created.,[['read']]
+31,The gz compressed file can be used to create a file.,[['read']]
+31,You can create a gz compressed file.,[['read']]
+31,There is a gz compressed file.,[['read']]
+32,You can uncompress a gz file.,[['read']]
+32,Uncompress a file.,[['read']]
+32,There is a gz file.,[['read']]
+32,Uncompress a gz file.,[['read']]
+32,You can uncompress the gz file.,[['read']]
+33,The first 10 lines of the file should be displayed.,[['read']]
+33,The first 10 lines of the file are displayed.,[['read']]
+33,The first 10 lines of the file should be shown.,[['read']]
+33,The first 10 lines of file should be displayed.,[['read']]
+33,Show the first 10 lines of the file.,[['read']]
+34,The commands used in the past should be displayed with an enumerated list.,none
+34,Use the commands from the past to display an enumerated list.,none
+34,Use the commands used in the past to display an enumerated list.,none
+34,The commands used in the past should be displayed in an enumerated list.,none
+34,Use the commands that were used in the past to display an enumerated list.,none
+35,A program file.jar can be executed.,[['read']]
+35,There is a program file.jar.,[['read']]
+35,A JAVA program file can be executed.,[['read']]
+35,There is a JAVA program file.,[['read']]
+35,A JAVA program file.jar can be executed.,[['read']]
+36,A JAVA program file can be executed.,[['read']]
+36,A program file can be executed.,[['read']]
+36,A program file is executed.,[['read']]
+36,A JAVA program file should be executed.,[['read']]
+36,There is a JAVA program file.,[['read']]
+37,It's a good idea to build a JAVA program file.,[['read']]
+37,There is a JAVA program file.,[['read']]
+37,There is a program file.,[['read']]
+37,It's a good idea to make a JAVA program file.,[['read']]
+37,It's a good idea to create a JAVA program file.,[['read']]
+38,To only show the last 10 logins.,none
+38,Only the last 10 logins can be shown.,none
+38,Only the last 10 logins are shown.,none
+38,Only the last 10 logins will be shown.,none
+38,Only the last 10 logins should be shown.,none
+39,View 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110,none
+39,View 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110,none
+39,View 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110,none
+39,View 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110,none
+39,View 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 888-739-5110 to view 888-739-5110 888-739-5110 888-739-5110 888-739-5110,none
+40,All recorded shutdowns can be viewed.,none
+40,All recorded shutdowns are available to view.,none
+40,You can view all recorded shutdowns.,none
+40,View the recorded shutdowns.,none
+40,View all recorded shutdowns.,none
+41,"If the file is small enough to fit on a single screen, show it.",[['read']]
+41,"If the file is small enough to fit on a single screen, you should show it.",[['read']]
+41,"If it's small enough to fit on a single screen, show it.",[['read']]
+41,"If the file is small enough to fit on one screen, show it.",[['read']]
+41,"If the file is small enough to fit in a single screen, show it.",[['read']]
+42,A physical link is created between file1 and file2.,"[['read'], ['notexist']]"
+42,A physical link is created.,"[['read'], ['notexist']]"
+42,A physical link is created between file 1 and file 2.,"[['read'], ['notexist']]"
+42,A physical link of file 1 and file 2 is created.,"[['read'], ['notexist']]"
+42,A physical link of file1 and file2 is created.,"[['read'], ['notexist']]"
+43,A symbolic link of file1 and file2 is created.,"[['read'], ['notexist']]"
+43,A symbolic link is created.,"[['read'], ['notexist']]"
+43,A symbolic link of file 1 and file 2 is created.,"[['read'], ['notexist']]"
+43,A symbolic link of file1 and file2 was created.,"[['read'], ['notexist']]"
+43,A symbolic link is created named file2,"[['read'], ['notexist']]"
+44,You can search for a file in a directory.,none
+44,There is a file in this directory.,none
+44,You can find the file in a particular directory.,none
+44,You can find the file in a directory.,none
+44,There is a file in the directory.,none
+45,All the files are listed under the current directory.,"[['read', 'execute']]"
+45,"Under the current directory, list all the filenames.","[['read', 'execute']]"
+45,"Under the current directory, list all the files.","[['read', 'execute']]"
+45,The current directory contains all the filenames.,"[['read', 'execute']]"
+45,The current directory has all the filenames listed.,"[['read', 'execute']]"
+46,To file a message should be written.,[['write']]
+46,Send a message to file.,[['write']]
+46,To file write a message.,[['write']]
+46,"To file, write a message.",[['write']]
+46,To file write the message.,[['write']]
+47,There is a MD checksum for the file.,[['read']]
+47,The MD checksum is computed for the file.,[['read']]
+47,The MD is the checksum for the file.,[['read']]
+47,The checksum for the file is computed.,[['read']]
+47,There is a MD checksum for file.,[['read']]
+48,"Under the current directory, create a new directory called /dir.","[['write', 'execute']]"
+48,"Under current directory, create a new directory called /dir.","[['write', 'execute']]"
+48,"Under the current directory, make a new directory called /dir.","[['write', 'execute']]"
+48,"Under the current directory, create a new directory called /DIR.","[['write', 'execute']]"
+48,Under the current directory is a new directory called /dir.,"[['write', 'execute']]"
+49,The contents of the file can be seen on the screen.,[['read']]
+49,The contents of a file can be seen on the screen.,[['read']]
+49,The screen displays the contents of the file.,[['read']]
+49,The file's contents can be seen on the screen.,[['read']]
+49,The screen shows the contents of the file.,[['read']]
+50,The file should be moved to directory dir.,"[['none'], ['write', 'execute']]"
+50,The file should be moved to the directory dir.,"[['none'], ['write', 'execute']]"
+50,Please move the file to the dir.,"[['none'], ['write', 'execute']]"
+50,Please move the file to a different location.,"[['none'], ['write', 'execute']]"
+50,Please move the file to the directory dir.,"[['none'], ['write', 'execute']]"
+51,"If we have two files, we want to move them to the location dir.","[['none'], ['none'], ['write', 'execute']]"
+51,"If we have two files, we want to move them to a different location.","[['none'], ['none'], ['write', 'execute']]"
+51,"If we have two files, we want to move them to location dir.","[['none'], ['none'], ['write', 'execute']]"
+51,"If we have two files, we want to move them to a location.","[['none'], ['none'], ['write', 'execute']]"
+51,"If we have two files, we would like to move them to the location dir.","[['none'], ['none'], ['write', 'execute']]"
+52,"If we have a file, we want to change it to another one.",none
+52,If we have a file and want to change it to another one.,none
+52,"If we have a file, we want to change it to something else.",none
+52,"If we have a file, we want to change it to a different one.",none
+52,"If we have a file, and want to change it to another one.",none
+53,Rename a directory.,"[['read', 'write'], ['write', 'execute']]"
+53,The directory dir1 should be renamed dir2,"[['read', 'write'], ['write', 'execute']]"
+53,Rename a directory to something else.,"[['read', 'write'], ['write', 'execute']]"
+53,A directory should be renamed dir1 to dir2.,"[['read', 'write'], ['write', 'execute']]"
+53,dir1 to dir2 should be renamed.,"[['read', 'write'], ['write', 'execute']]"
+54,It's possible to open a file in the text editor.,"[['read', 'write']]"
+54,It is possible to open a file in the text editor.,"[['read', 'write']]"
+54,You can open the file in the text editor.,"[['read', 'write']]"
+54,It's possible to open the file in the text editor.,"[['read', 'write']]"
+54,You can open a file in the text editor.,"[['read', 'write']]"
+55,Information about the system can be displayed.,none
+55,Information about the system should be displayed.,none
+55,Show information about the system.,none
+55,You can display information about the system.,none
+55,Information about the system is displayed.,none
+56,Show the processes running.,none
+56,Show how the current shell session is running.,none
+56,The current shell session is running.,none
+56,Show the processes running in the shell session.,none
+56,Show the processes that are running.,none
+57,There is a tree of processes.,none
+57,A tree of processes can be displayed.,none
+57,A tree of processes is displayed.,none
+57,A tree of processes.,none
+57,You can display a tree of processes.,none
+58,There is a working directory for the software.,none
+58,The software is running.,none
+58,The software is running on a directory.,none
+58,There is a working directory on the software.,none
+58,Show the working directory of the software.,none
+59,Run a python program.,[['read']]
+59,Run python program.,[['read']]
+59,There is a python program that you can run.,[['read']]
+59,Run a program in python.,[['read']]
+59,There is a python program that can be run.,[['read']]
+60,A file should be removed.,none
+60,There is a file that needs to be removed.,none
+60,There is a file that should be removed.,none
+60,A file needs to be removed.,none
+60,You can remove a file.,none
+61,There is an empty directory.,none
+61,Remove an empty directory.,none
+61,I want to remove an empty directory.,none
+61,Mydir1 is an empty directory.,none
+61,An empty directory can be deleted.,none
+62,The file.txt should be copied to the current working directory.,[['read']]
+62,You can copy the file.txt to the current working directory.,[['read']]
+62,You can copy the file.txt into the current working directory.,[['read']]
+62,Go to the current working directory and copy the file.txt.,[['read']]
+62,You can copy the file.txt to the current directory.,[['read']]
+63,"If the lines are the same, display each line with a series of spaces between them.","[['read'], ['read']]"
+63,"If the lines are the same, the files should be displayed with a series of spaces between them.","[['read'], ['read']]"
+63,"If the lines are the same, display each line of the two files with a series of spaces between them.","[['read'], ['read']]"
+63,"If the lines are the same, show each line with a series of spaces between them.","[['read'], ['read']]"
+63,"If the lines are the same, display them with a series of spaces between them.","[['read'], ['read']]"
+64,"If you are working with a text file, you should replace every instance of the word ""version"" with the word ""story"" in the file.",[['read']]
+64,"If you are working with a text file, you should replace every instance of the word ""version"" with the word ""story"" in it.",[['read']]
+64,"If you are working with a text file, you should replace every instance of the word ""version"" with the word ""story""",[['read']]
+64,"If you are working with a text file, you should replace every instance of the wordversion with the wordstory in the file.",[['read']]
+64,"If you are working with a text file, you should replace every instance of the wordversion with the story in the file.",[['read']]
+65,The file becomes extremely difficult to recover if the contents are changed repeatedly.,[['write']]
+65,The file becomes very difficult to recover if the contents are changed repeatedly.,[['write']]
+65,The file becomes very difficult to recover if the contents are not changed frequently.,[['write']]
+65,The given file becomes extremely difficult to recover if the contents are changed repeatedly.,[['write']]
+65,The given file becomes very difficult to recover if the contents are changed repeatedly.,[['write']]
+66,"If the contents of the file are not changed, the file will become extremely difficult to recover and then be deleted.",[['write']]
+66,"If the contents of the file are not changed frequently, the file will become extremely difficult to recover and then be deleted.",[['write']]
+66,"If the contents of the file are not changed, the file will become very difficult to recover and then be deleted.",[['write']]
+66,"If the contents of the file are not changed frequently, the file will become very difficult to recover and then be deleted.",[['write']]
+66,"If the contents of the file are not changed frequently, the file will become extremely difficult to recover, and then be deleted.",[['write']]
+67,You can sort file line by line by alphabet order.,[['read']]
+67,Sort file line by line by alphabet order and see the result on the screen.,[['read']]
+67,Sort file line by line by alphabet order to see the result on the screen.,[['read']]
+67,You can sort the file line by line by alphabet order.,[['read']]
+67,Show the result on the screen if you sort the file line by line.,[['read']]
+68,Break the original file into three equal to the number of lines.,[['read']]
+68,Break the file into three equal to the number of lines.,[['read']]
+68,The original file should be broken into three equal to the number of lines.,[['read']]
+68,"Keep the original file intact, but break it into three equal to the number of lines.",[['read']]
+68,"Keeping the original intact, break the file into three equal to the number of lines.",[['read']]
+69,There are strings in the file.,[['read']]
+69,Find strings in a file.,[['read']]
+69,There are strings in a file.,[['read']]
+69,The file has strings in it.,[['read']]
+69,Find strings in the file.,[['read']]
+70,Use 1K blocks of myfile.txt to calculate the BSD sum.,[['read']]
+70,Use 1K blocks of my file to calculate the BSD sum.,[['read']]
+70,Use 1K blocks of myfile.txt to calculate BSD sum.,[['read']]
+70,Use 1K blocks of myfile to calculate the BSD sum.,[['read']]
+70,Use 1K blocks of myfile.,[['read']]
+71,The file is printed in reverse.,[['read']]
+71,The file can be printed in reverse.,[['read']]
+71,Print file in reverse.,[['read']]
+71,The file should be printed in reverse.,[['read']]
+71,Print the file in reverse.,[['read']]
+72,The last 3 lines of the file should be displayed.,[['read']]
+72,The last three lines of the file should be displayed.,[['read']]
+72,The last 3 lines of the file should be shown.,[['read']]
+72,The last 3 lines of the file are displayed.,[['read']]
+72,The last lines of the file should be displayed.,[['read']]
+73,The tar file is the archive of the file in the current directory.,[['read']]
+73,"The archive of file, file, is in the current directory.",[['read']]
+73,The tar file is the archive of file in the current directory.,[['read']]
+73,"The tar file is the archive of file, file, in the current directory.",[['read']]
+73,"The archive of file, file, in the current directory is called file.tar.",[['read']]
+74,There is an existing tar file.tar.,[['read']]
+74,There is a tar file.tar.,[['read']]
+74,Take a look at an existing tar file.tar.,[['read']]
+74,You can view an existing tar file.,[['read']]
+74,There is an existing tar file.tar,[['read']]
+75,The output will be sent to file top-file.,[['write']]
+75,The output will be sent to file top-file,[['write']]
+75,The output will be sent to file top-files.,[['write']]
+75,The output will be sent to file top- file.,[['write']]
+75,"The output will be sent to file top-file, as specified by the delay flag.",[['write']]
+76,An empty file can be created in the location dir.,"[['write', 'execute']]"
+76,An empty file can be created in location dir.,"[['write', 'execute']]"
+76,An empty file can be created in the dir.,"[['write', 'execute']]"
+76,"In the location dir, create an empty file.","[['write', 'execute']]"
+76,"In the dir, create an empty file.","[['write', 'execute']]"
+77,An empty file can be created.,"[['write', 'execute']]"
+77,An empty file should be created.,"[['write', 'execute']]"
+77,An empty file is created.,"[['write', 'execute']]"
+77,An empty file could be created.,"[['write', 'execute']]"
+77,You can create an empty file.,"[['write', 'execute']]"
+78,Old_file's modification date should be changed to the current time.,"[['write', 'execute']]"
+78,The old_file modification date should be changed to the current time.,"[['write', 'execute']]"
+78,The modification date of the file should be changed to the current time.,"[['write', 'execute']]"
+78,The current time is when the modification date of file old_file should be changed.,"[['write', 'execute']]"
+78,The current time is when the modification date of the file should be changed.,"[['write', 'execute']]"
+79,The system information should be printed in the following order.,none
+79,All the system information should be printed in the following order.,none
+79,"The system information should be printed in the following order: kernels name, network name, release date, machine hardware name, operating system.",none
+79,The system information can be printed in the following order.,none
+79,"The system information should be printed in the following order: the name of the operating system, the name of the network, the release date of the kernels, and the machine hardware name.",none
+80,You can extract a zip compressed file.,[['read']]
+80,There is a zip compressed file.,[['read']]
+80,Get a zip compressed file.,[['read']]
+80,You can extract a zip file.,[['read']]
+80,A zip file is compressed.,[['read']]
+81,Load average and system uptime should be shown.,none
+81,Show the load and system average.,none
+81,Load average and system uptime are shown.,none
+81,Show the load average.,none
+81,Show the load average and system average.,none
+82,Use the vi editor to modify an existing file.,"[['read', 'write']]"
+82,The vi editor can be used to modify an existing file.,"[['read', 'write']]"
+82,The vi editor can be used to edit an existing file.,"[['read', 'write']]"
+82,Use the vi editor to change an existing file.,"[['read', 'write']]"
+82,You can use the vi editor to modify an existing file.,"[['read', 'write']]"
+83,"Show the system memory, processes, interrupts, and block I/O.",none
+83,"Show the system memory, processes, interrupt, and block I/O.",none
+83,"Show system memory, processes, interrupts, and block I/O.",none
+83,"Show the system's memory, processes, interrupts, and block I/O.",none
+83,"Show system memory, processes, interrupt, and block I/O.",none
+84,"You can find the number of lines, word count,byte and characters in the file.",[['read']]
+84,"You can find the number of lines, word count, byte and characters in the file.",[['read']]
+84,"Find the number of lines, word count,byte and characters in the file.",[['read']]
+84,"You can find the number of lines, word count,byte, and characters in the file.",[['read']]
+84,"Number of lines, word count,byte and characters count in the file.",[['read']]
+85,You can download a sample.,none
+85,A sample.php can be downloaded.,none
+85,You can download a webpage sample.,none
+85,You can download a sample of a website.,none
+85,You can download a sample website template.,none
+86,There is a single-line description of a python command.,none
+86,The python command is described in a single line.,none
+86,There is a single-line description of the python command.,none
+86,A description of a python command can be printed.,none
+86,There is a description of a python command.,none
+87,The full path of shell commands can be output.,none
+87,You can output the full path of shell commands.,none
+87,The full path of shell commands should be output.,none
+87,The full path of shell commands can be Output the full path of shell commands.,none
+87,The full path of commands can be output.,none
+88,The usernames are currently in use.,none
+88,You can display the usernames currently in use.,none
+88,Show the usernames currently in use.,none
+88,The usernames currently in use are displayed.,none
+88,The usernames should be displayed.,none
+89,Put the file into a zip file.,"[['read'], ['write']]"
+89,Take the file and make it into a zip file.,"[['read'], ['write']]"
+89,Take the file and put it in a zip file.,"[['read'], ['write']]"
+89,Take the file and put it into a zip file.,"[['read'], ['write']]"
+89,Put the file into zip.,"[['read'], ['write']]"
